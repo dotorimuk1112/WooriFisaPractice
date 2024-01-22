@@ -1,2 +1,2 @@
 # Object-Oriented Programming practice
-![Alt text](/image.png)
+![Alt text](https://github.com/dotorimuk1112/WooriFisaPractice/blob/main/Python_OOP/image.png)
