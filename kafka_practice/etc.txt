@@ -1,0 +1,5 @@
+# 토픽 리스트 조회 : docker-compose exec [Service Name] kafka-topics --list --bootstrap-server [Service Name]:[Port]
+docker-compose exec broker kafka-topics --list --bootstrap-server broker:9092
+
+# 토픽 정보 확인: docker-compose exec [Service Name] kafka-topics --describe --topic [Topic Name] --bootstrap-server [Service Name]:[Port]
+docker-compose exec broker kafka-topics --describe --topic sample --bootstrap-server broker:9092
